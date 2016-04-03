@@ -1,0 +1,82 @@
+
+/* BASIC*/
+* {
+	margin: 0;
+	padding: 0;
+}
+	
+body {
+	background: #000;
+	color: #fff;
+}
+
+/* LAYOUT */
+	/* The width and height of "wrapper", "upper-left", "upper-right"
+	and "bottom" needs to be changed in order to match your monitor's resolution */
+#wrapper { 
+	width: 750px;
+	height: 1300px;
+	margin: 0 auto;
+}
+
+	#upper-left {
+		width: 325px;
+		margin: 50px 50px 0 0;
+		height: 1150px;
+		float: left;
+		text-align: center;
+	}
+	
+	#upper-right {
+		width: 340px;
+		height: 1050px;
+		margin: 150px 35px 0 0;
+		float: left;
+		text-align: right;
+	}
+	
+	#bottom {
+		width: 550px;
+		height: 100px;
+		margin: 0 100px 0 100px;
+		clear: both;
+		background: url(bg.gif) repeat-x;
+		text-align: center;
+	}
+
+/* TEXT */
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 102px;
+	font-weight: 300;
+	line-height: 102px;
+	}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	}
+	
+h2.smaller {
+	font-size: 22px;
+	letter-spacing: 1px;
+	}	
+	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+	padding: 20px 0 0 0;
+	}
+	
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	}	
+	
+p.date {
+	font-size: 12px;
+	font-weight: 600;
+	}
